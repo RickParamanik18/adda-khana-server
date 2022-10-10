@@ -39,7 +39,6 @@ const authUser = async (params) => {
 };
 
 const getUser = async (params) => {
-  console.log(params);
   const result = await user.findOne(params);
 
   return {
